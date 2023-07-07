@@ -12,13 +12,18 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0;
-    padding: 2rem;
+    padding: 0;
     padding-bottom: 1rem;
     align-items: flex-start;
     flex-wrap: nowrap;
 }
 
-
+.portfolio li h3, a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
 .portfolio li h3.github::before {
   content: "";
