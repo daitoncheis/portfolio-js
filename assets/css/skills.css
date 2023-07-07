@@ -6,8 +6,6 @@
 
 /* FERRAMENTAS*/
 
-
-
 .skills .tools ul {
   display: flex;
   flex-direction: row;
@@ -26,7 +24,9 @@
 
 /* HABILIDADES PESSOAIS*/
 
-
+.skills .personal {
+  padding: 1rem;
+}
 
 .skills .personal ul {
   text-align: center;
@@ -56,12 +56,12 @@
   .skills .personal ul {
     text-align-last: left;
   }
-  .skills h3{
+  .skills h3 {
     padding-right: 2rem;
   }
-  
-  .tools {
-    padding-bottom: 1rem;
 
+  .skills .tools img {
+    padding: 1rem;
+    padding-bottom: 2rem;
   }
 }
