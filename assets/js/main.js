@@ -14,7 +14,7 @@ function updateProfileInfo(profileData) {
 
   const phone = document.getElementById("profile.phone");
   phone.innerText = profileData.phone;
-  phone.href = `https://api.whatsapp.com/send/?phone=${profileData.phone}&text&type=phone_number&app_absent=0`;
+  phone.href = `tel:${profileData.phone}`;
 
   const email = document.getElementById("profile.email");
   email.innerHTML = profileData.email;
