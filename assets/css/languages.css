@@ -23,7 +23,7 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("/assets/img/icons/check.svg");
+    background-image: url("assets/img/icons/check.svg");
     margin-right: .3rem;
 }
 @media only screen and (min-width: 786px) {
