@@ -64,19 +64,19 @@
   ],
   "professionalExperience": [
     {
-      "name": "",
-      "period": "",
-      "description": ""
+      "name": "Eperiencia 1",
+      "period": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/assets/img/em_breve.png",
+      "description": "Em breve"
     },
     {
-      "name": "",
-      "period": "",
-      "description": ""
+      "name": "Eperiencia 2",
+      "period": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/assets/img/em_breve.png",
+      "description": "Em breve"
     },
     {
-      "name": "",
-      "period": "",
-      "description": ""
+      "name": "Experiencia 3",
+      "period": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/assets/img/em_breve.png",
+      "description": "Em breve"
     }
   ]
 }
