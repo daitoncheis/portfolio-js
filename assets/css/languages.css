@@ -33,5 +33,6 @@
         flex-wrap: nowrap;
         align-items: center;
         padding: 1rem;
+        padding-top: 0;
     }
  }
