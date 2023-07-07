@@ -48,12 +48,17 @@
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "url": "https://github.com/daitoncheis/pokedex-js",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Relogio em JS",
+      "url": "https://github.com/daitoncheis/relogio-js",
+      "github": true
+    },
+    {
+      "name": "Recriando login do Instagram",
+      "url": "https://github.com/daitoncheis/login-instagram",
       "github": true
     }
   ],
