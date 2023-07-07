@@ -43,6 +43,7 @@ a:hover {
   .main {
     max-width: 800px;
     margin: 2rem auto;
+    padding: 2rem 2rem 0 2rem;
   }
 
   .main::before {
