@@ -61,22 +61,6 @@
       "url": "https://github.com/daitoncheis/login-instagram",
       "github": true
     }
-  ],
-  "graduate": [
-    {
-      "name": "",
-      "curso": "",
-      "description": ""
-    },
-    {
-      "name": "Eperiencia 2",
-      "curso": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/assets/img/em_breve.png",
-      "description": "Em breve"
-    },
-    {
-      "name": "Experiencia 3",
-      "curso": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/assets/img/em_breve.png",
-      "description": "Em breve"
-    }
   ]
+  
 }
