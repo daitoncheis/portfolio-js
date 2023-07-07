@@ -47,21 +47,21 @@
 }
 
 .info .job:before  {
-    background-image: url('assets/img/icons/icon_pessoa.png');
+    background-image: url('../img/icons/icon_pessoa.png');
 
 }
 
 .info .location:before  {
-    background-image: url('assets/img/icons/icon_gps.png');
+    background-image: url('../img/icons/icon_gps.png');
 }
 
 .info .phone:before  {
-    background-image: url('assets/img/icons/icon_phone.png');
+    background-image: url('../img/icons/icon_phone.png');
 }
 
 .info .email:before  {
     text-decoration: underline;    
-    background-image: url('assets/img/icons/icon_email.png');
+    background-image: url('../img/icons/icon_email.png');
 }
 
 .section h3 {
