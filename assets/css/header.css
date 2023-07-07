@@ -11,7 +11,7 @@
     border-radius: 50%;
 }
 
-.header .title {
+.header h3 {
     text-align: center;
 }
 
@@ -46,12 +46,12 @@
    
 }
 
-.info .pessoa:before  {
+.info .job:before  {
     background-image: url('/assets/img/icons/icon_pessoa.png');
 
 }
 
-.info .gps:before  {
+.info .location:before  {
     background-image: url('/assets/img/icons/icon_gps.png');
 }
 
@@ -84,7 +84,7 @@
         margin: 0 auto;
     }
 
-    .header .title {
+    .header h3{
         grid-area: title;
         text-align: start;
         
