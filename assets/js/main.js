@@ -49,7 +49,7 @@ function updateLanguages(profileData) {
 
 function updatePortfolio(profileData) {
   const portfolio = document.getElementById("profile.portfolio");
-  portifolio.innerHTML = profileData.portifolio
+  portfolio.innerHTML = profileData.portfolio
     .map((project) => {
       return ` 
       <li>
