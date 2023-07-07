@@ -36,3 +36,12 @@
   background-image: url('../img/icons/github.svg');
   margin-right: .5rem;
 }
+
+@media only screen and (min-width: 786px) {
+  .portfolio{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+}

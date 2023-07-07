@@ -47,12 +47,12 @@
   ],
   "portfolio": [
     {
-      "name": "Pokedex em JS (DIO)",
+      "name": "PokedexJS (DIO)",
       "url": "https://shre.ink/pokedex-js",
       "github": true
     },
     {
-      "name": "Relogio em JS",
+      "name": "RelogioJS",
       "url": "https://shre.ink/relogio-js",
       "github": true
     },
