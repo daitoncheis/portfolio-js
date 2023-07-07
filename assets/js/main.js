@@ -14,7 +14,7 @@ function updateProfileInfo(profileData) {
 
   const phone = document.getElementById("profile.phone");
   phone.innerText = profileData.phone;
-  phone.href = `tel:${profileData.phone}`;
+  phone.href = `https://api.whatsapp.com/send/?phone=${profileData.phone}&text&type=phone_number&app_absent=0`;
 
   const email = document.getElementById("profile.email");
   email.innerHTML = profileData.email;
@@ -53,7 +53,7 @@ function updatePortfolio(profileData) {
     .map((project) => {
       return ` 
       <li>
-        <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+        <h3 ${project.github ? 'class="github"' : ""}>${project.name}</h3>
         <a href="${project.url}" target="_blank">${project.url}</a>
       </li>
     `;
@@ -67,5 +67,5 @@ function updatePortfolio(profileData) {
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
   updateLanguages(profileData);
-  updatePortfolio(profileData)
+  updatePortfolio(profileData);
 })();
