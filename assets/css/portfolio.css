@@ -1,19 +1,20 @@
 .portfolio {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   margin: 0;
   padding: 0;
-  list-style: none;
   padding-bottom: 1rem;
 }
 
 .portfolio li {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 1rem;
-  padding: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1rem;
+    align-items: flex-start;
+    flex-wrap: nowrap;
 }
 
 .portfolio li h3, a {
@@ -46,13 +47,4 @@
   flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 786px) {
-  .portfolio {
-    display: flex;
-    
-    justify-content: flex-start;
-    width: 100%;
-    margin: 0;
-    list-style: none;
-  }
-}
+
