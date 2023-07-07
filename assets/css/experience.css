@@ -1,0 +1,33 @@
+.experience {    
+    display: flex ;
+    list-style: none;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2rem
+}
+
+.experience img{
+    width: 100%;
+    max-width: 200px;
+    border-style: ridge;
+    border-radius: 5%;
+}
+
+@media only screen and (min-width: 786px) {
+   .experience {
+   flex-direction: row;
+   padding-bottom: 1rem
+   }
+
+   .experience img{
+    display: flex;
+  margin: 1rem;
+  padding: 0;
+  
+
+
+   }
+}
+

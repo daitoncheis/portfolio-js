@@ -1,0 +1,77 @@
+{
+  "name": "Dáiton Cheis",
+  "photo": "https://avatars.githubusercontent.com/u/29989317?v=4",
+  "pessoa": "Dev Junior",
+  "gps": "Rio de Janeiro - RJ",
+  "phone": "(21) 97428-7581",
+  "email": "daitoncheis@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/data/imgs/nodejs.png"
+      },
+      {
+        "name": "GIT",
+        "logo": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/data/imgs/git.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/data/imgs/react.png"
+      },
+      {
+        "name": "Html",
+        "logo": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/data/imgs/html.png"
+      },
+      {
+        "name": "Css",
+        "logo": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/data/imgs/css.png"
+      },
+      {
+        "name": "VScode",
+        "logo": "https://raw.githubusercontent.com/daitoncheis/portfolio-js/main/data/imgs/vscode.png"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Facilidade de comunicação",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)",
+    "Espanhol (intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Arquiteto de software / S3 BANK",
+      "period": "2022 - até o momento",
+      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+    },
+    {
+      "name": "Software Engineering Lead / DIO",
+      "period": "2021 - 2022",
+      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+    },
+    {
+      "name": "CEO / Brain Machine",
+      "period": "2016 - 2021",
+      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+    }
+  ]
+}

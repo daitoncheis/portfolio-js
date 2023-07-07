@@ -1,0 +1,67 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* FERRAMENTAS*/
+
+
+
+.skills .tools ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills .tools ul li img {
+  max-width: 100px;
+  margin: 0 0.5rem;
+}
+
+/* HABILIDADES PESSOAIS*/
+
+
+
+.skills .personal ul {
+  text-align: center;
+  text-align-last: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2rem;
+}
+
+.skills .personal ul li {
+  text-align: center;
+
+  margin-left: 2rem;
+  padding: 0.2rem;
+}
+
+/* RESPONSIVO */
+
+@media only screen and (min-width: 786px) {
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 1rem;
+  }
+  .skills .personal ul {
+    text-align-last: left;
+  }
+  .skills h3{
+    padding-right: 2rem;
+  }
+  
+  .tools {
+    padding-bottom: 1rem;
+
+  }
+}

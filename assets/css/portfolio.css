@@ -1,0 +1,63 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-bottom: 1rem
+}
+
+.portfolio li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1rem;
+  padding: 0;
+   
+}
+
+
+
+.portfolio li .title, a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+}
+
+.portfolio li .title.github::before {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/assets/img/icons/github.svg");
+  margin-right: 0.3rem;
+  text-align: center;
+  
+}
+
+.previewPokedex, .previewRelogio, .previewLogin {
+  width: 100%;
+  max-width: 200px;
+  border-style: ridge;
+  border-radius: 5%;
+  display: flex;
+  flex-wrap: wrap;
+   
+}
+
+
+@media only screen and (min-width: 786px) {
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+}
+}
