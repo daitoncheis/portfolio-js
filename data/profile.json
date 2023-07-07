@@ -48,17 +48,17 @@
   "portfolio": [
     {
       "name": "Pokedex em JS (DIO)",
-      "url": "https://github.com/daitoncheis/pokedex-js",
+      "url": "https://shre.ink/pokedex-js",
       "github": true
     },
     {
       "name": "Relogio em JS",
-      "url": "https://github.com/daitoncheis/relogio-js",
+      "url": "https://shre.ink/relogio-js",
       "github": true
     },
     {
       "name": "Recriando login do Instagram",
-      "url": "https://github.com/daitoncheis/login-instagram",
+      "url": "https://shre.ink/login-instagram",
       "github": true
     }
   ]
