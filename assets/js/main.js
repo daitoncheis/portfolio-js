@@ -41,14 +41,12 @@ function updateHardSkills(profileData) {
 }
 
 function updateLanguages(profileData) {
-  const languages = document.getElementById("profile.languages");
-  languages.innerHTML = profileData.languages
-    .map((language) => `<li>${languages}</li>`)
-    .join("");
+  const languages = document.getElementById('profile.languages');
+  languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('');
 }
 
 function updatePortfolio(profileData) {
-  const portfolio = document.getElementById("profile.portfolio");
+  const portfolio = document.getElementById('profile.portfolio');
   portfolio.innerHTML = profileData.portfolio
     .map((project) => {
       return ` 
