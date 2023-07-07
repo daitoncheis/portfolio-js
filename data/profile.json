@@ -47,7 +47,7 @@
   ],
   "portfolio": [
     {
-      "name": "Curso na DIO para a criação de uma Pokedex",
+      "name": "Pokedex em JS (DIO)",
       "url": "https://github.com/daitoncheis/pokedex-js",
       "github": true
     },
