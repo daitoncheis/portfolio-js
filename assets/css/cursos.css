@@ -4,6 +4,25 @@
     justify-content: flex-start;
     width: 100%;
     margin: 0;
-    padding: 0 1rem 2rem 1rem;
+    padding: 0 1rem 1rem 1rem;
     list-style: none;
+  }
+  
+  
+  
+.cursos li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+  
+.cursos li h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: .5rem;
   }

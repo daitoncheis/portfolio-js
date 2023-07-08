@@ -50,9 +50,10 @@ function updatePortfolio(profileData) {
   }).join('')
 }
 
-function updateCursos(profileData) {
-  const cursos = document.getElementById('profile.cursos')
-  cursos.innerHTML = profileData.cursos?.map(project => {
+function updateCursinhos(profileData) {
+  const curso = document.getElementById('profile.cursos')
+  curso.innerHTML = profileData.curso?.map(project => {
+    return
      `
      <li>
      <h3 ${project.dio ? 'class="dio"' : ''}>${project.name}</h3>
@@ -71,6 +72,6 @@ function updateCursos(profileData) {
   updateHardSkills(profileData)
   updateLanguages(profileData)
   updatePortfolio(profileData)
-  updateCursos(profileData)
+  updateCursinhos(profileData)
   
 })()
