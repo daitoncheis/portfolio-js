@@ -28,11 +28,9 @@ a:hover {
 @media only screen and (min-width: 786px) {
   .main {
     max-width: 800px;
-    margin: 5.5rem auto;
+    margin: 9.5rem auto;
     padding: 2rem 2rem 0 2rem;
   }
 
-  .main::before {
-    max-width: 3840px;
-  }
+  
 }
