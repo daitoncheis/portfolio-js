@@ -65,7 +65,18 @@
   "cursos": [
     {
       "name": "Formação JavaScript Developer",
-      "url": "https://www.dio.me/certificate/1C0622A3/share"
+      "url": "https://www.dio.me/certificate/1C0622A3/share",
+      "dio": true
+    },
+    {
+      "name": "Formação JavaScript Developer",
+      "url": "https://www.dio.me/certificate/1C0622A3/share",
+      "dio": true
+    },
+    {
+      "name": "Formação JavaScript Developer",
+      "url": "https://www.dio.me/certificate/1C0622A3/share",
+      "dio": true
     }
     
   ]
