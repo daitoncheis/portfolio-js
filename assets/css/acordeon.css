@@ -11,7 +11,7 @@
 
 .acordeon.open,
 .acordeon:hover {
-  background-color: rgb(98 65 157 / 98%);
+  background-color: rgba(54, 54, 119, 0.267);
     border-color: #e7dde2;
  
 }
@@ -53,7 +53,7 @@
   overflow: hidden;
   height: 0;
   opacity: 0;
-  transition: opacity 0.25s ease-in-out;
+  transition: opacity .5s ease-in-out;
   padding: 0;
   margin: 0;  
 }
