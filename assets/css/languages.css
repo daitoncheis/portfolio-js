@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0;
-    padding: 0;
+    padding: 0 1rem 1rem 1rem;
     list-style: none;
 }
 
