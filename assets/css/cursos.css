@@ -1,0 +1,9 @@
+.cursos li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem 2rem 1rem;
+    list-style: none;
+  }

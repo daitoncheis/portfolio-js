@@ -14,7 +14,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.main {
+main {
   margin: 1rem;
   padding: 2rem 2rem 0.1rem 2rem;
   border: 1px solid #ffffff0e;
@@ -24,10 +24,13 @@ a:hover {
 
 
 
+
+
 @media only screen and (min-width: 786px) {
-  .main {
+  main {
+    
     max-width: 800px;
-    margin: 9.5rem auto;
+    margin: 2rem;
     padding: 2rem 2rem 0 2rem;
   }
 

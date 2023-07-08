@@ -61,6 +61,13 @@
       "url": "https://shre.ink/login-instagram",
       "github": true
     }
+  ],
+  "cursos": [
+    {
+      "name": "Formação JavaScript Developer",
+      "url": "https://www.dio.me/certificate/1C0622A3/share"
+    }
+    
   ]
   
 }
