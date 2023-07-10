@@ -4,7 +4,7 @@
     justify-content: flex-start;
     width: 100%;
     margin: 0;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 2rem;
     list-style: none;
   }
   
@@ -26,3 +26,25 @@
     margin: 0;
     margin-bottom: .5rem;
   }
+
+  
+  @media only screen and (min-width: 786px) {
+    .cursos{
+      display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0rem 0 1rem 1rem;
+    }
+    .cursos a {
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .cursos li {
+      display: flex;
+      padding: 1rem;
+      margin: 0;
+    }
+}
