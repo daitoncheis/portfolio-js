@@ -24,11 +24,11 @@ function updateJob(profileData) {
 
 function updateLocation(profileData) {
   const locationGPS = document.getElementById('profile.location')
-  locationGPS.innerHTML = profileData.location.map(project =>  
+  locationGPS.innerHTML = profileData.location.map(project => 
        `
       <a href="${project.url}" target="_blank">${project.name}</a>   
       `
-  ).join('')
+).join('')
 }
 
 function updatePhone(profileData){
