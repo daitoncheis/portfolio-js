@@ -63,35 +63,31 @@
   "portfolio": [
     {
       "name": "PokedexJS (DIO)",
-      "url": "https://shre.ink/pokedex-js",
+      "url": "https://bit.ly/pokedexjs",
       "github": true
     },
     {
       "name": "RelogioJS",
-      "url": "https://shre.ink/relogio-js",
+      "url": "https://bit.ly/relogiojs",
       "github": true
     },
     {
       "name": "Login do Instagram",
-      "url": "https://shre.ink/login-instagram",
+      "url": "https://bit.ly/3PQcaft",
       "github": true
     }
   ],
   "cursos": [
     {
       "name": "Formação JavaScript Developer",
-      "url": "https://www.dio.me/certificate/1C0622A3/share",
-      "dio": true
+      "url": "https://bit.ly/3pOCk7D"
+      
     },
     {
-      "name": "Formação JavaScript Developer",
-      "url": "https://www.dio.me/certificate/1C0622A3/share",
-      "dio": true
-    },
-    {
-      "name": "Formação JavaScript Developer",
-      "url": "https://www.dio.me/certificate/1C0622A3/share",
-      "dio": true
-    }    
+      "name": "Bacharelado em Ciência da Computação (Em Progresso)",
+      "url": ""
+      
+    }
+     
   ]  
 }

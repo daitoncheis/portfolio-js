@@ -72,8 +72,10 @@ function updateCursos(profileData) {
   cursos.innerHTML = profileData.cursos.map(project =>
      `
      <li>
+     
      <h3>${project.name}</h3>
      <a href="${project.url}" target="_blank">${project.url}</a>
+     <h3></h3>
  </li>
  `
 ).join('')
