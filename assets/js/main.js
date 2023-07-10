@@ -52,18 +52,18 @@ function updatePortfolio(profileData) {
   }).join('')
 }
 
-function updateCursinhos(profileData) {
-  const cursos = document.getElementById('profile.cursos')
-  cursos.innerHTML = profileData.cursos.map(project => {
-    return
-     `
-     <li>
-     <h3 ${project.dio ? 'class="dio"' : ''}>${project.name}</h3>
-     <a href="${project.url}" target="_blank">${project.url}</a>
- </li>
- `
-}).join('')
-}
+// function updateCursinhos(profileData) {
+//   const cursos = document.getElementById('profile.cursos')
+//   cursos.innerHTML = profileData.cursos.map(project => {
+//     return
+//      `
+//      <li>
+//      <h3 ${project.dio ? 'class="dio"' : ''}>${project.name}</h3>
+//      <a href="${project.url}" target="_blank">${project.url}</a>
+//  </li>
+//  `
+// }).join('')
+// }
 
 
 
@@ -74,6 +74,6 @@ function updateCursinhos(profileData) {
   updateHardSkills(profileData)
   updateLanguages(profileData)
   updatePortfolio(profileData)
-  updateCursinhos(profileData)
+  // updateCursinhos(profileData)
   
 })()
