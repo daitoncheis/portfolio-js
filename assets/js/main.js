@@ -7,11 +7,6 @@ function updateProfileInfo(profileData) {
   const name = document.getElementById('profile.name')
   name.innerText = profileData.name
   
-
-  const job = document.getElementById('profile.job')
-  job.innerText = profileData.job
-  job.href = `linkedin:${profileData.job.url}`
-
   const location = document.getElementById('profile.location')
   location.innerText = profileData.location
 
@@ -22,6 +17,15 @@ function updateProfileInfo(profileData) {
   const email = document.getElementById('profile.email')
   email.innerText = profileData.email
   email.href = `mailto:${profileData.email}`
+}
+
+function updateJob(profileData) {
+  const jobCargo = document.getElementById('profile.job')
+  jobCargo.innerHTML = profileData.job.map(project => {
+      return `
+      <a href="${project.url}" target="_blank">${project.name}</a>
+      `
+  }).join('')
 }
 
 function updateSoftSkills(profileData) {
@@ -75,5 +79,6 @@ function updatePortfolio(profileData) {
   updateLanguages(profileData)
   updatePortfolio(profileData)
   // updateCursinhos(profileData)
+  updateJob(profileData)
   
 })()
