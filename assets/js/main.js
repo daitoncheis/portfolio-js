@@ -6,10 +6,11 @@ function updateProfileInfo(profileData) {
 
   const name = document.getElementById('profile.name')
   name.innerText = profileData.name
-  name.href = `linkedin:${profileData.name.url}`
+  
 
   const job = document.getElementById('profile.job')
   job.innerText = profileData.job
+  job.href = `linkedin:${profileData.job.url}`
 
   const location = document.getElementById('profile.location')
   location.innerText = profileData.location

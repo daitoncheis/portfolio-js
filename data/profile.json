@@ -1,11 +1,11 @@
 {
-  "name": [
-  {
+  "name":"Dáiton",
+  
+  "photo": "https://avatars.githubusercontent.com/u/29989317?v=4",
+  "job": [{
     "name":"Dáiton Cheis",
     "url":"https://www.linkedin.com/in/d%C3%A1iton-cheis-841b03100/"
   }],
-  "photo": "https://avatars.githubusercontent.com/u/29989317?v=4",
-  "job": "Dev Junior",
   "location": "Rio de Janeiro - RJ",
   "phone": "21974287581",
   "email": "daitoncheis@gmail.com",
