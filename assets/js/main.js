@@ -6,6 +6,7 @@ function updateProfileInfo(profileData) {
 
   const name = document.getElementById('profile.name')
   name.innerText = profileData.name
+  name.href = `linkedin:${profileData.name.url}`
 
   const job = document.getElementById('profile.job')
   job.innerText = profileData.job
@@ -51,8 +52,8 @@ function updatePortfolio(profileData) {
 }
 
 function updateCursinhos(profileData) {
-  const curso = document.getElementById('profile.cursos')
-  curso.innerHTML = profileData.curso?.map(project => {
+  const cursos = document.getElementById('profile.cursos')
+  cursos.innerHTML = profileData.cursos.map(project => {
     return
      `
      <li>
