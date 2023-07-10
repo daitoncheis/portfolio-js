@@ -2,11 +2,17 @@
   "name":"Dáiton",
   
   "photo": "https://avatars.githubusercontent.com/u/29989317?v=4",
-  "job": [{
+  "job": [
+    {
     "name":"Dáiton Cheis",
     "url":"https://www.linkedin.com/in/d%C3%A1iton-cheis-841b03100/"
-  }],
-  "location": "Rio de Janeiro - RJ",
+}],
+  "location": [
+    {
+    "name":"Rio de Janeiro - RJ",
+    "url":"https://www.google.com/maps/place/Rio+de+Janeiro,+RJ/@-22.9137295,-43.6107901,11z/data=!3m1!4b1!4m6!3m5!1s0x9bde559108a05b:0x50dc426c672fd24e!8m2!3d-22.9068467!4d-43.1728965!16zL20vMDZnbXI?entry=ttu"
+    
+}],
   "phone": [
     {
       "name":"21974287581",

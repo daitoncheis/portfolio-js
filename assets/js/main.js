@@ -6,9 +6,6 @@ function updateProfileInfo(profileData) {
 
   const name = document.getElementById('profile.name')
   name.innerText = profileData.name
-  
-  const location = document.getElementById('profile.location')
-  location.innerText = profileData.location
 
 
   const email = document.getElementById('profile.email')
@@ -18,21 +15,29 @@ function updateProfileInfo(profileData) {
 
 function updateJob(profileData) {
   const jobCargo = document.getElementById('profile.job')
-  jobCargo.innerHTML = profileData.job.map(project => {
-      return `
+  jobCargo.innerHTML = profileData.job.map(project => 
+       `
       <a href="${project.url}" target="_blank">${project.name}</a>   
       `
-  }).join('')
+  ).join('')
+}
+
+function updateLocation(profileData) {
+  const locationGPS = document.getElementById('profile.location')
+  locationGPS.innerHTML = profileData.location.map(project =>  
+       `
+      <a href="${project.url}" target="_blank">${project.name}</a>   
+      `
+  ).join('')
 }
 
 function updatePhone(profileData){
-  const phone = document.getElementById('profile.phone')
-  phone.innerText = profileData.phone.map(project => {
-    return`
+  const phoneNumber = document.getElementById('profile.phone')
+  phoneNumber.innerHTML = profileData.phone.map(project => `
     <a href="${project.url}" target="_blank">${project.name}</a>   
     `
-  }).join('')
-  }
+  ).join('')
+}
 
 function updateSoftSkills(profileData) {
   const softSkills = document.getElementById('profile.skills.softSkills')
@@ -86,6 +91,7 @@ function updatePortfolio(profileData) {
   updatePortfolio(profileData)
   // updateCursinhos(profileData)
   updateJob(profileData)
+  updateLocation(profileData)
   updatePhone(profileData)
   
 })()
