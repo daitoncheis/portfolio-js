@@ -10,9 +10,6 @@ function updateProfileInfo(profileData) {
   const location = document.getElementById('profile.location')
   location.innerText = profileData.location
 
-  const phone = document.getElementById('profile.phone')
-  phone.innerText = profileData.phone
-  phone.href = `tel:${profileData.phone}`
 
   const email = document.getElementById('profile.email')
   email.innerText = profileData.email
@@ -23,10 +20,19 @@ function updateJob(profileData) {
   const jobCargo = document.getElementById('profile.job')
   jobCargo.innerHTML = profileData.job.map(project => {
       return `
-      <a href="${project.url}" target="_blank">${project.name}</a>
+      <a href="${project.url}" target="_blank">${project.name}</a>   
       `
   }).join('')
 }
+
+function updatePhone(profileData){
+  const phone = document.getElementById('profile.phone')
+  phone.innerText = profileData.phone.map(project => {
+    return`
+    <a href="${project.url}" target="_blank">${project.name}</a>   
+    `
+  }).join('')
+  }
 
 function updateSoftSkills(profileData) {
   const softSkills = document.getElementById('profile.skills.softSkills')
@@ -80,5 +86,6 @@ function updatePortfolio(profileData) {
   updatePortfolio(profileData)
   // updateCursinhos(profileData)
   updateJob(profileData)
+  updatePhone(profileData)
   
 })()

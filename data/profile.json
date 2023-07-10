@@ -7,7 +7,12 @@
     "url":"https://www.linkedin.com/in/d%C3%A1iton-cheis-841b03100/"
   }],
   "location": "Rio de Janeiro - RJ",
-  "phone": "21974287581",
+  "phone": [
+    {
+      "name":"21974287581",
+      "url":"https://wa.me/5521974287581"
+    }
+  ],
   "email": "daitoncheis@gmail.com",
   "skills": {
     "hardSkills": [
