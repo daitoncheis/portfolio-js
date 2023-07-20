@@ -1,22 +1,23 @@
 {
-  "name":"Dáiton",
-  
+  "name": "Dáiton",
+
   "photo": "https://avatars.githubusercontent.com/u/29989317?v=4",
   "job": [
     {
-    "name":"Dáiton Cheis",
-    "url":"https://www.linkedin.com/in/d%C3%A1iton-cheis-841b03100/"
-}],
+      "name": "Dáiton Cheis",
+      "url": "https://www.linkedin.com/in/d%C3%A1iton-cheis-841b03100/"
+    }
+  ],
   "location": [
     {
-    "name":"Rio de Janeiro - RJ",
-    "url":"https://www.google.com/maps/place/Rio+de+Janeiro,+RJ/@-22.9137295,-43.6107901,11z/data=!3m1!4b1!4m6!3m5!1s0x9bde559108a05b:0x50dc426c672fd24e!8m2!3d-22.9068467!4d-43.1728965!16zL20vMDZnbXI?entry=ttu"
-    
-}],
+      "name": "Rio de Janeiro - RJ",
+      "url": "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ/@-22.9137295,-43.6107901,11z/data=!3m1!4b1!4m6!3m5!1s0x9bde559108a05b:0x50dc426c672fd24e!8m2!3d-22.9068467!4d-43.1728965!16zL20vMDZnbXI?entry=ttu"
+    }
+  ],
   "phone": [
     {
-      "name":"21974287581",
-      "url":"https://wa.me/5521974287581"
+      "name": "21974287581",
+      "url": "https://wa.me/5521974287581"
     }
   ],
   "email": "daitoncheis@gmail.com",
@@ -81,13 +82,14 @@
     {
       "name": "Formação JavaScript Developer",
       "url": "https://bit.ly/3pOCk7D"
-      
+    },
+    {
+      "name": "Formação HTML Web Developer",
+      "url": "https://bit.ly/3rFtn0Y"
     },
     {
       "name": "Bacharelado em Ciência da Computação",
       "url": "Em progresso"
-      
     }
-     
-  ]  
+  ]
 }
