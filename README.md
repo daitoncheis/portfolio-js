@@ -13,11 +13,3 @@ O portfólio apresenta as informações pessoais, habilidades, idiomas, formaç�
 - JavaScript
 - Google Fonts
 
-## Como Executar o Projeto
-
-Para executar este projeto localmente, siga os passos abaixo:
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
-
