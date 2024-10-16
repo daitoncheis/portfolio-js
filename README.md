@@ -1,6 +1,6 @@
 # Portfólio Dáiton Cheis
 
-Este é o portfólio pessoal de Dáiton Cheis, apresentado em formato web. Abaixo, você encontrará informações sobre como executar e utilizar este projeto.
+Este é o meu portfólio pessoal, apresentado em formato web. Abaixo, você encontrará informações sobre como executar e utilizar este projeto.
 
 ## Descrição
 
@@ -13,7 +13,11 @@ O portfólio apresenta as informações pessoais, habilidades, idiomas, formaç�
 - JavaScript
 - Google Fonts
 
-## Estrutura do Projeto
+## Como Executar o Projeto
 
-O projeto está organizado da seguinte forma:
+Para executar este projeto localmente, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/nome-do-repositorio.git
 
